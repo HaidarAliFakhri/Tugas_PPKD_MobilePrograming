@@ -13,7 +13,7 @@ void main() {
   }
   print('\n');
   //soal 3
-   List<String> nama = ['haidar', 'haidar', 'haidar'];
+   List<String> nama = ['haidar', 'haidar', 'haidar', 'haidar'];
 
   int i = 0; // inisialisasi variabel penghitung
   while (i < nama.length) {
@@ -41,6 +41,7 @@ void main() {
     print('Item ke-${i + 1}: ${daftarBelanja[i]}');
   }
 }
+
 
 
 
