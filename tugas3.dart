@@ -17,7 +17,7 @@ void main() {
   for (var n in nama) {
     print("$n");
   }
-  print('\n');
+  
   //soal 4
   List<String> buah = ['Apel', 'Jeruk', 'Mangga', 'Anggur'];
   for (var n in buah) {
@@ -38,3 +38,4 @@ void main() {
     print('Item ke-${i + 1}: ${daftarBelanja[i]}');
   }
 }
+
