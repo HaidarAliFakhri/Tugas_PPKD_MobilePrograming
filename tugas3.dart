@@ -13,9 +13,12 @@ void main() {
   }
   print('\n');
   //soal 3
-  List<String> nama = ['haidar', 'haidar', 'haidar'];
-  for (var n in nama) {
-    print("$n");
+   List<String> nama = ['haidar', 'haidar', 'haidar'];
+
+  int i = 0; // inisialisasi variabel penghitung
+  while (i < nama.length) {
+    print('${nama[i]}');
+    i++;
   }
   
   //soal 4
@@ -38,4 +41,5 @@ void main() {
     print('Item ke-${i + 1}: ${daftarBelanja[i]}');
   }
 }
+
 
