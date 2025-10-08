@@ -6,21 +6,21 @@ void main() {
       stdout.write('$i ');
     }
   }
-
+print('\n');
   for (int i = 0; i < 5; i++) {
     stdout.write('* ');
   }
-
+print('\n');
   List<String> nama = ['haidar', 'haidar', 'haidar'];
   for (var n in nama) {
     print("$n");
   }
-
+print('\n');
   List<String> buah = ['Apel', 'Jeruk', 'Mangga', 'Anggur'];
   for (var n in buah) {
     print("Saya Suka $n");
   }
-
+print('\n');
   List<String> daftarBelanja = [
     'Beras',
     'Minyak',
@@ -34,3 +34,4 @@ void main() {
     print('Item ke-${i + 1}: ${daftarBelanja[i]}');
   }
 }
+
